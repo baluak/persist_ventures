@@ -1,0 +1,14 @@
+/* p_diet.css */
+
+.bgpic {
+  position: relative; 
+}
+
+.overlay {
+  z-index: 3; 
+  position: absolute; 
+  top: 150%; 
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  width: 55%; 
+}

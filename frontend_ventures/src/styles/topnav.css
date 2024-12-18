@@ -1,0 +1,26 @@
+body {
+  color: white;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+  background-color: black;
+  overflow-x: hidden; 
+  margin-left: -14em;
+}
+
+.dropdown {
+  z-index: 10;
+  position: fixed; /* Fixes the position relative to the viewport */
+  top: 50%; /* Moves it to the vertical center */
+  left: 50%; /* Moves it to the horizontal center */
+  transform: translate(-50%, -50%); /* Adjusts for the element's own dimensions */
+  display: flex;
+  align-items: center; /* Centers content vertically inside the dropdown */
+  justify-content: center; /* Centers content horizontally inside the dropdown */
+  background-color: #333; /* Optional: add a background for visibility */
+  padding: 1em; /* Optional: add padding */
+  border-radius: 10px; /* Optional: add rounded corners */
+  background-color: black;
+  margin-top: -20.5em;
+  
+}
